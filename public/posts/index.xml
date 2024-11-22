@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on 比奇堡的菠萝屋</title>
+    <link>https://sevenyearsa.github.io/posts/</link>
+    <description>Recent content in Posts on 比奇堡的菠萝屋</description>
+    <generator>Hugo -- 0.139.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 22 Nov 2024 20:14:58 +0800</lastBuildDate>
+    <atom:link href="https://sevenyearsa.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo配置说明</title>
+      <link>https://sevenyearsa.github.io/posts/hugo%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E/</link>
+      <pubDate>Fri, 22 Nov 2024 20:14:58 +0800</pubDate>
+      <guid>https://sevenyearsa.github.io/posts/hugo%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E/</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;什么都没有&lt;/p&gt;
+&lt;h3 id=&#34;项目结构&#34;&gt;项目结构&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;your-hugo-site/
+│
+├── archetypes/            # 文章模板目录
+│   └── default.md        # 默认的文章模板
+│
+├── assets/               # 需要处理的资源文件
+│   ├── css/             # CSS 文件
+│   └── js/              # JavaScript 文件
+│
+├── content/             # 网站内容目录
+│   ├── posts/          # 博客文章
+│   ├── about/          # 关于页面
+│   └── projects/       # 项目页面
+│
+├── data/               # 配置数据文件目录
+│   ├── authors.yaml    # 作者信息
+│   └── menu.yaml       # 菜单配置
+│
+├── layouts/            # 布局模板目录
+│   ├── _default/      # 默认模板
+│   ├── partials/      # 部分模板
+│   └── shortcodes/    # 短代码模板
+│
+├── public/            # 构建生成的静态文件（不要手动修改）
+│
+├── resources/         # 缓存文件目录（不要手动修改）
+│
+├── static/           # 静态文件目录
+│   ├── images/      # 图片文件
+│   ├── css/         # 静态 CSS 文件
+│   └── js/          # 静态 JavaScript 文件
+│
+├── themes/          # 主题目录
+│   └── PaperMod/    # PaperMod 主题
+│
+├── config.toml      # 网站配置文件（或 hugo.yaml）
+└── hugo.toml        # Hugo 特定配置文件
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>https://sevenyearsa.github.io/posts/my-first-post/</link>
+      <pubDate>Fri, 22 Nov 2024 17:54:59 +0800</pubDate>
+      <guid>https://sevenyearsa.github.io/posts/my-first-post/</guid>
+      <description>&lt;p&gt;nihao zheshi wo de di yi pian wenjian
+可以写中文吗&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>我的第一篇博客</title>
+      <link>https://sevenyearsa.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E4%B8%AD%E6%96%87%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://sevenyearsa.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E4%B8%AD%E6%96%87%E6%B5%8B%E8%AF%95/</guid>
+      <description>这是我的第一篇博客文章</description>
+    </item>
+  </channel>
+</rss>

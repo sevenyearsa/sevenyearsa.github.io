@@ -1,0 +1,85 @@
+baseURL: "https://sevenyearsa.github.io"    # 网站的基础URL
+title: "比奇堡的菠萝屋"                 # 网站标题
+paginate: 10                      # 每页显示的文章数量
+theme: PaperMod                   # 使用的主题名称
+
+enableRobotsTXT: true            # 启用 robots.txt
+buildDrafts: false               # 是否构建草稿文章
+buildFuture: false               # 是否构建未来日期的文章
+buildExpired: false              # 是否构建过期的文章
+
+# 语言设置
+defaultContentLanguage: zh
+languageCode: zh-cn
+
+# 菜单配置
+menu:
+  main:
+    - identifier: home
+      name: 首页
+      url: /
+      weight: 10
+    - identifier: archives
+      name: 归档
+      url: /archives
+      weight: 20
+    - identifier: categories
+      name: 分类
+      url: /categories/
+      weight: 30
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 40
+    - identifier: about
+      name: 关于
+      url: /about/
+      weight: 50
+
+# PaperMod主题参数配置
+params:
+  # 网站基本信息
+  env: production
+  description: "我的个人博客"
+  author: "作者名"
+  
+  # 主题外观
+  defaultTheme: auto              # 默认主题模式 (light/dark/auto)
+  ShowReadingTime: true          # 显示阅读时间
+  ShowShareButtons: true         # 显示分享按钮
+  ShowPostNavLinks: true         # 显示上一篇/下一篇导航
+  ShowBreadCrumbs: true         # 显示面包屑导航
+  ShowCodeCopyButtons: true      # 显示代码复制按钮
+  ShowToc: true                  # 显示目录
+  
+  # 首页配置
+  profileMode:
+    enabled: true               # 启用个人资料模式
+    title: "sevenyearsa"           # 个人资料标题
+    subtitle: "个人简介"        # 个人资料副标题
+    imageUrl: "images/avatar.jpg" # 头像图片URL
+    imageTitle: "我的头像"      # 头像替代文本
+    buttons:
+      - name: 文章
+        url: posts
+      - name: 标签
+        url: tags
+
+  # 社交链接
+  socialIcons:
+    - name: github
+      url: "https://github.com/sevenyearsa"
+    - name: wechat
+      url: "https://twitter.com/yourusername"
+    - name: email
+      url: "mailto:2434447283@qq.com"
+
+  # 搜索功能
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary"]

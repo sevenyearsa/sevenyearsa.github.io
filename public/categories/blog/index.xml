@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog on 比奇堡的菠萝屋</title>
+    <link>https://sevenyearsa.github.io/categories/blog/</link>
+    <description>Recent content in Blog on 比奇堡的菠萝屋</description>
+    <generator>Hugo -- 0.139.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 22 Nov 2024 17:54:59 +0800</lastBuildDate>
+    <atom:link href="https://sevenyearsa.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://sevenyearsa.github.io/posts/my-first-post/</link>
+      <pubDate>Fri, 22 Nov 2024 17:54:59 +0800</pubDate>
+      <guid>https://sevenyearsa.github.io/posts/my-first-post/</guid>
+      <description>&lt;p&gt;nihao zheshi wo de di yi pian wenjian
+可以写中文吗&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
